@@ -1,0 +1,345 @@
+	Inverview questions
+	http://thinktibits.blogspot.in/2011/05/java-itext-convert-html-to-pdf-example.html
+	http://javadecodedquestions.blogspot.in/2013/01/java-interviews-frequently-asked-puzzles.html
+	http://javadecodedquestions.blogspot.in/2012/03/java-interview-with-investment-bank-4.html
+	http://www.concretepage.com/interview/hibernate-interview/hibernate-interview-questions-cache
+	http://howtodoinjava.com/2014/07/19/spring-mvc-difference-between-contextannotation-config-vs-contextcomponent-scan/
+	http://howtodoinjava.com/2015/08/19/jersey-rest-security/
+	http://www.javabeat.net/introduction-to-java-6-0-new-features-part-i/http://www.indiabix.com/placement-papers/oracle/4083
+	http://career.guru99.com/top-50-oracle-interview-questions-and-answers/
+	http://sql-plsql.blogspot.in/2009/04/sql-interview-questions.html
+	http://www.bullraider.com/database/sql-tutorial/7-complex-queries-in-sql
+	http://www.folkstalk.com/2011/12/sql-queries-interview-questions-oracle_30.html
+	http://www.geekinterview.com/Interview-Questions/Oracle/SQL
+	http://java67.blogspot.in/2015/07/array-concepts-interview-questions-answers-java.html // array logics
+	
+	https://mkashu.blogspot.in/2014/05/top-130-sql-interview-questions-and.html  //emp dept sql questions
+	http://oracleappsdna.com/2014/12/frequently-asked-sql-interview-questions-on-emp-dept-table/  // emp dept sql questions
+	https://apexplained.wordpress.com/2013/04/20/the-emp-and-dept-tables-in-oracle/ // emp dept data
+	http://howtodoinjava.com/2013/01/09/sql-query-to-find-find-the-nth-highest-salary-of-an-employee/ // nth salary
+	http://www.programmerinterview.com/index.php/data-structures/introduction/ // Data strutcturs
+	http://skillgun.com/Home.aspx // Logics For freshers 
+	http://javarevisited.blogspot.in/2011/06/top-programming-interview-questions.html // ***** programming logics
+	http://www.javamadesoeasy.com/2015/02/hashmap-custom-implementation.html // Cutom hash map implementation
+	
+	
+	Multi Threading tutorial
+	http://tutorials.jenkov.com/java-concurrency/volatile.html
+	http://crackingjavainterviews.blogspot.in/2013/04/top-interview-questions-for-investment.html
+	
+	Core Java
+	http://www.javabench.in/2014/04/scjp-ocp-java-sampletest-questionsdumps.html
+	Puzzle 
+	http://javadecodedquestions.blogspot.in/2012/03/java-interview-with-investment-bank-4.html
+	
+	http://www.java2novice.com/java-interview-programs/thread-deadlock/ // dead lock creation
+
+==
+java 56789 features.
+singleton, builder, stratagy, factory, abstract factory,
+how to write immutable class.
+ananymous and inner classes.
+is a relation ship and Has-a,
+Jsp tags, implict objects,
+
+how to pervent the deadlock.
+Generics.
+
+oracle.
+
+==========
+public class DoubleCheckedLockingSingleton{
+     private volatile DoubleCheckedLockingSingleton INSTANCE;
+	private DoubleCheckedLockingSingleton(){}
+     public DoubleCheckedLockingSingleton getInstance(){
+         if(INSTANCE == null){
+            synchronized(DoubleCheckedLockingSingleton.class){
+                //double checking Singleton instance
+                if(INSTANCE == null){
+                    INSTANCE = new DoubleCheckedLockingSingleton();
+                }
+            }
+         }
+         return INSTANCE;
+     }
+}
+--------------
+package com.javapapers.sample.designpattern;
+public class Singleton {
+  private static Singleton singleInstance = new Singleton();
+  private Singleton() {}
+  public static Singleton getSingleInstance() {
+    return singleInstance;
+  }
+}
+===========   
+
+Java source code to database connection using Datasource.
+How to configure connection pool from source code.
+spring bean scopes.
+Singleton is at session level or request level.
+Hibernate mapping w.r.t to ER level and Class level.
+(Object-equality)Contract between equals and Hashcode method.
+================
+
+
+Core Java
+---------------
+Java 56789 features
+Generics
+Multi threading
+Class Not found Vs NoClassDefFound
+your own Collection frame work
+Inheritance methods and Overriding , static methods practice
+JDK. 1.6 features :
+Queue, priority queue, blocking queue,
+Read all methods of collection, map remove all...
+Enum practice
+Collections performance wise order.
+Clone by dineshan
+ default initial capacity and load factor of list= 10
+static method usage
+http://www.javabeat.net/introduction-to-java-6-0-new-features-part-i/
+
+Create Custom Thread Pool
+
+........................
+JDBC
+--------------------
+database properties
+jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
+jdbc.url=jdbc:oracle:thin:@192.168.1.24:1521:eseva
+jdbc.username=esevacen
+jdbc.password=esevacen
+
+Servlet
+-----------------------
+latest version : Servlet 3.1
+Can we run a servlet without container
+
+Jsp
+-----------------------
+latest version : JSP 2.3
+Tags , Forloop
+
+<c:forEach items="${employees}" var="employee">
+            <tr>
+                <td>${employee.id}</td>
+                <td>${employee.firstName}</td>
+                <td>${employee.lastName}</td>
+            </tr>
+</c:forEach>
+
+Struts
+-----------------------
+used version : 2.3.16
+latest version : 2.3.20 (security changes excludeparms with excludeclasses)
+Struts UI form validation in Action class.??
+
+How do you configure the annotation based action mapping
+What is the life cycle of Interceptor ?
+Who executes/Which class in Struts2 executes the interceptors ?
+In what order the interceptors execute in an interceptor stack ?
+What is action scope and how is it different from request scope ? 
+What happens if you don't call the invoke() method in any interceptors' intercept() method ?
+How can two interceptors in a stack communicate or If you were to pass some value from one interceptor to another, by using this value the next interceptor executes some specific statements, how would you do it ?
+What is dynamic method invocation ?
+What is the difference between DispatchAction and dynamic method invocation in Struts2
+
+tiles configuration.
+interceptors
+
+Spring
+------------------------
+used version : 3.1.1
+latest version : 4.1.6
+
+Spring singleton beans are thread safe?
+How Proxy pattern works??
+
+Hibernate
+------------------------
+used version : 
+latest version : 4.3.10
+
+Hibernate Cascade.Delete vs Delete All vs Delete Orphan
+EsevaAdminUserMstDTO
+SSCResultsDTO
+
+Oracle
+------------------------
+distinct with multiple columns
+
+implicit cursor.
+Updated rows count
+
+
+SOAP
+-------------------
+Soap binding types.
+	<target name="generate-OrderStatusWebservice-jar" depends="setup">
+			<echo message="Generating Java stubs for OrderStatusWebservice..." />
+			<antcall target="clean" />
+			
+			<wsimport 
+				debug="true" 
+				extension="true" 
+				keep="true" 
+				destdir="${tmp.dir}" 
+				verbose="false"  
+				xnocompile="false" 
+				wsdl="webservices/OrderStatusWebserviceService.wsdl">
+			</wsimport>
+					
+			<jar destfile="${dest.dir}/OrderStatusService.jar" basedir="${tmp.dir}" />
+		</target>
+		
+	private static GetCNOCIncidentsPortType createCnocWINETGetIncidentsServiceClient() {
+		try {
+			URL baseUrl = RemedyTroubleTicketingDAOImpl.class.getResource(".");
+			URL url = new URL(baseUrl, CNOC_WS_GET_INCIDENTS_URL);
+			WebServiceClient<GetCNOCIncidentsPortType> client = new WebServiceClient<GetCNOCIncidentsPortType>(
+					url, new QName("urn:WIN_ET_CNOC_GetIncidents", "WIN_ET_CNOC_GetIncidentsService"),
+					GetCNOCIncidentsPortType.class, WS_USERNAME, WS_PASSWORD);
+			return client.getPort();
+		} catch (Exception e) {
+			log4j.error(TroubleTicketingConstants.COULD_NT_CRT_CONN_TO_REMEDY_WB_SRV, e);
+			return null;
+		}
+	}
+
+GWT
+-------------------------
+
+Oracle 
+==================
+// 2nd max sal
+select max(sal) from emp where sal not in (select max(sal) from emp);
+// nth max sal using co related query
+SELECT *
+FROM emp Emp1
+WHERE ( 2 ) = (
+                SELECT COUNT( DISTINCT ( Emp2.sal ) )
+                FROM emp Emp2
+                WHERE Emp2.sal >= Emp1.sal
+            );
+//Using dense_rank() / row_number() function
+select * from 
+  ( select empno, ename, sal , dense_rank() over(order by sal desc) as rk from emp)
+  where rk = 2;
+ // delete records  using rowid 
+ delete from emp where rowid not in 
+(select max(rowid) from emp group by empno);
+			
+ForLoop
+Trigger
+Sequence
+Raise Exception
+Date to char conversion
+rank vs dense_rank()
+
+Miscellaneous
+-------------------------
+Written test
+https://tests4geeks.com/test/java
+dweb.xml questions, declrer servlet two times
+
+
+Links
+security tips
+https://www.youtube.com/watch?v=UlHV4HksBug&list=PLT_PPCeXuu64Nt71iBwTS8tss4FtmeRwO
+best link for tomcat
+https://www.youtube.com/watch?v=uwSj19j1c2I
+
+
+
+
+======================
+idempotent : 
+ex : A HTTP method is said to be idempotent if it returns the same result every time.
+
+transitive :
+symitric:
+=====================
+Projects
+Orderstatus pdf& excel format
+Aws utility for executor framework
+GWT
+DAO DTO MVC
+GET
+Struts Mobile Requests
+Struts and spring flow.
+Servlets and JSP lifecycle
+
+struts interceptor vs seervlets filter
+
+default name space and Root name space
+
+why struts has changed from filter dispatcher to prepareandexecutefilter.
+
+http://cs-fundamentals.com/java-programming/method-overloading-in-java.php
+File IO examples
+spring bean life cycle afterProperties set
+spring mvc controller exceptions - eseva
+Spring autowire xml way video
+spring AOP method practice
+Design patterns , log4j, DB Queries, SOAP and REST*****, Is a , Has a relaiton ship.
+Hibernate annotation practice, ehcache, inheritence
+Spring @ModelAttribute, MVC diagram
+Project Artchitecture diagram
+collection hirearchy
+
+
+
+====================POC=============
+Rajeev shukla
+https://github.com/rajeevshukla/sharebazar
+
+Questions to others
+=====================================
+
+
+performance Issues
+=========================
+1. Application level	
+   This talks about coding standards and design patterns used and number of network calls/remote calls making to complete a request.
+
+2. Server level
+	Load balancer-> Verticle sacling or Horizantal scaling
+	Verticle sacling : one machine with number of nodes( 1 machine with 4 jobss servers) . draback is if machine is down then applicaiton is down.
+	Horizantal scaling : 4 machines with 4 servers
+
+3. Infrastructural level
+	machine is in linux or windows or RAM speed, Processer..  like.. 
+
+definitions
+=========
+Encapsulation : Wrapping data and methods within classes in combination with implementation hiding (through access control) is often called encapsulation. 
+
+Weaving: linking aspects with other application types or objects to create an advised object. This can be done at compile time (using the AspectJ compiler, for example), load time, or at runtime. Spring AOP, like other pure Java AOP frameworks, performs weaving at runtime.
+
+
+Questions :
+======================
+1. Other usage of Userdefiend Exception(apart from redability, maintaince, dataloss)
+2. How to insert same record into two tables at a time
+3. delete all duplicate rows from a table
+4. Inheritance realtime example
+5. Why hash table dosen't allow null values?
+6. How to write log stmts only if exception came??
+7. How do you do the code review?
+8. DTO vs Entity beans
+http://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate
+
+
+
+
+
+
+
+
+
+
+
+
+
