@@ -1,4 +1,4 @@
-	Inverview questions
+Inverview questions
 	http://thinktibits.blogspot.in/2011/05/java-itext-convert-html-to-pdf-example.html
 	http://javadecodedquestions.blogspot.in/2013/01/java-interviews-frequently-asked-puzzles.html
 	http://javadecodedquestions.blogspot.in/2012/03/java-interview-with-investment-bank-4.html
@@ -66,11 +66,11 @@ public class DoubleCheckedLockingSingleton{
 --------------
 package com.javapapers.sample.designpattern;
 public class Singleton {
-  private static Singleton singleInstance = new Singleton();
-  private Singleton() {}
-  public static Singleton getSingleInstance() {
-    return singleInstance;
-  }
+  private static Singleton singleInstance = new Singleton();
+  private Singleton() {}
+  public static Singleton getSingleInstance() {
+    return singleInstance;
+  }
 }
 ===========   
 
@@ -85,7 +85,7 @@ Hibernate mapping w.r.t to ER level and Class level.
 
 Core Java
 ---------------
-Java 56789 features
+Java 5678910 features
 Generics
 Multi threading
 Class Not found Vs NoClassDefFound
@@ -160,7 +160,7 @@ How Proxy pattern works??
 Hibernate
 ------------------------
 used version : 
-latest version : 4.3.10
+latest version : 5.2
 
 Hibernate Cascade.Delete vs Delete All vs Delete Orphan
 EsevaAdminUserMstDTO
@@ -326,20 +326,73 @@ Questions :
 3. delete all duplicate rows from a table
 4. Inheritance realtime example
 5. Why hash table dosen't allow null values?
-6. How to write log stmts only if exception came??
+6. How to write log stmts only if exception occurs??
 7. How do you do the code review?
 8. DTO vs Entity beans
 http://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate
 
+==========Angular JS==============
+Regarding @Issue1 : 
+Injecting controller to controller
+How many ways to inject service and how do you use it.
+About Custom Promicies
+How to stop two way binding..
+Custom directive in angular
+How to create/use filter
+What are interceptors in angular.
+How to send only perticular object data to backend
+Any Idea about integrating 3rd party plugins.
+What are events in angular
+How to create custom events
+How to pass messages to another controller based on some events
+What is dependency injection and its purpose
+What are recipies
+How many ways to share a data between controllers
 
 
+Mphasis interview questions
+--------------------
+Java is pass by value or pass by refference
+What if we don't use serialversion UID.
+After adding a veriable try to de-serialize what would be the result
+How do you secure single ton design pattern,
+Stratagy design pattern
+How do you remove all 0 s from below array
+[1,0,5,0,8,6,0]
+What is load factor and it's fourmula and example of with it's size (assume a set is created with 16 and if it is full then what is the size of set after the loadfactor).
+Below is the example and tells the count.
+set.add(new Persion(101,"one"), value1);
+set.add(new Persion(102,"two"), value2);
+set.add(new Persion(101,"one"), value3);
+What is the size, if we implement both hashcode and equals method.
+What is the size, if we implement only hashcode method.
+What is the size, if we implement only equals method.
 
+Concurrent hashmap iterator working mechanisum ??
+How do you identify the number of active and inactive sessions count.
+How do you secure rest/soap full webservices
+How do you represent the forigen-key relation ship in hibernate mapping.
+What are different type of cascedes.
 
+IGT
+-----------------------------
+Why string[] args is used as a parameter in main method?
+How will you select first 10 rows in database?
+How can you sort map? 
+lot of queries in sql ( using having, aggregate function, views stored procedure, function and transaction ) 
+difference between viewbag, tempdata, viewdata
+MVC 4 main feature
+MVC architecture
+session etc.   
+Is servlet thread safe or not, if not how to make it thread safe, 
+difference btwn getattibute nd setattribute method, 
+bean container nd their implementation classes, types of bean scope explain those
 
+SELECT * FROM pg_stat_activity where state = 'active';
+show idle_in_transaction_session_timeout;
+select 1;
 
-
-
-
-
-
-
+alter system set idle_in_transaction_session_timeout='3min';
+alter system set idle_in_transaction_session_timeout to 60000
+SET SESSION idle_in_transaction_session_timeout = '3min';
+ALTER SYSTEM
