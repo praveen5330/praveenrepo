@@ -415,3 +415,5 @@ Where spring uses proxy design pattern?.
 aggregation and composition with examples
 java design principles
 Observable designpattern
+
+http://javainuse.com/spring/spring_eurekaregister
