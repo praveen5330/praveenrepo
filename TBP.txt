@@ -399,13 +399,13 @@ ALTER SYSTEM
 
 ================= Verizon ======================
 Microservices architecture
-When to use microservices and it's benfits.
-Why your current project has choosen microservice architecture, reasons to choose this?.. and any other alternative considered approches?. 
+When to use microservices and it's benefits.
+Why your current project has chosen microservice architecture, reasons to choose this?.. and any other alternative considered approaches?. 
 How to deploy angular or front end code in microservices architecture and can we call this is a microservice?? if not what we call??
-Can you write down the steps involved in designing a microservice applicaiton which gets data from stack exchange server and display it.
+Can you write down the steps involved in designing a microservice application which gets data from stack exchange server and display it.
 How two microservices are interacted in your application?.
 How do you manage session in microservices architecture? and how do you share session data between multiple microservices?.
-Difference between service lookup, servie regestry and API gate way?
+Difference between service look-up, service registry and API gate way?
 Give me some alternatives for Eureka.
 What is dependency injection and IOC, why two words why not one word?
 How spring container creates objects. 
@@ -413,7 +413,7 @@ List few design patterns used by spring?
 Where spring uses proxy design pattern?.
 
 aggregation and composition with examples
-java design principles
-Observable designpattern
+Java design principles
+Observable design pattern
 
 http://javainuse.com/spring/spring_eurekaregister
