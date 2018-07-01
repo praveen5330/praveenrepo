@@ -417,3 +417,17 @@ Java design principles
 Observable design pattern
 
 http://javainuse.com/spring/spring_eurekaregister
+
+===============L&T Infotech================
+String input : AAABBBAAABBBAAABBB
+Expected Output : ABABABABABABABAB
+Have you ever used multithreading in your projects Explain the scenarios 
+How interthread communication will happen ?
+Reason behind having wait notify notifyAll in Object class?
+Write a program to use the wait, notify, notifyAll, ,join,sleep, yeild .
+Class level locks and object level locks?.
+How do you prevent deadlocks in your application.
+What is the use of Voliatle keyword.
+What is thread memory and what it contains..
+
+Write a query to delete all duplicate records from table.
