@@ -440,3 +440,105 @@ Write a query to delete all duplicate records from table.
 
 
 
+L&T Infotech
+-------------
+-write a program for reverse of a string in n/2 complexity.
+-What are pass by reference and passby value?
+-What is the difference between a constructor and a method?
+-State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers?
+-how can execute the prepared statement is executed in more than one in application? Where the ps object is created either db or application?
+-What is Cloneable Interface?
+-How to decide whether to use Interface or Abstract Class?
+-What are the types of Executor Interfaces ?
+-What are the core interfaces in Hibernate?
+-If two Interfaces have same Method, how to handle that Method in a Class implementing these two Interfaces?
+-Difference between Include Directive & Include Tag?
+-what use of Ajax?
+-What parsers are supported in Ajax?
+-How does garbage collection work?
+-How do you create a thread dump?
+-How do you profile an application?
+-How to make a collection or map immutable without using any existing features?
+-How hibernate implements lazy loading ?
+-What is the second level cache in Hibernate ?
+-Difference between immutable and final.
+-What if the main method is declared as private?
+	Ans : The program compiles properly but at runtime it will give error Message as 'Main method not public'.
+-Why native methods are used ?
+-How do you declare a page as Error Page. What tag you include in a JSP page so that it goes to specified error page in case of an exception ?
+-Servlet is a java class. So, can there be a constructor in Servlet class or not ? Why ?
+-What's the difference between forward & include tags? What URL (absolute or relative) is used in RequestDispatcher forward?
+-By default, Hashtable is unordered. Then, how can you retrieve Hashtable elements in the same order as they are put inside?
+-How to configure Data Source in WebSphere server ?
+-Oracle Thin Driver comes under which type of Driver ?
+-Difference between synchronised block and synchronised method? 
+-Difference between Statement and Prepared Statement? 
+-What type of driver do you use and why? 
+-What are stored procedures? 
+-What is meant by Single Thread model in Servlets? 
+-When will the minimum no of database connection will be created in appserver? 
+-How to look up bean from java class in client? 
+-Can we have a single remote and home interface for 2 different beans?
+-What is the use of Local Interface? 
+-What is a transient variable
+-Why do threads block on I/O?
+-How are Observer and Observable used?
+	Ans: Objects that subclass the Observable class maintain a list of observers. When an  Observable object is updated it invokes the update () method of each of its observers to notify the observers that it has changed state. The Observer interface is implemented by objects that observe Observable objects.
+-What’s new with the stop (), suspend () and resume () methods in JDK 1.2?
+
+-When would you use ORDER BY in DELETE statement?
+-How would you write a query to select all teams that won either 2, 4, 6 or 8 games?
+-How can you see all indexes defined for a table?
+-What do % and _ mean inside LIKE statement?
+-Can a table have two primary keys
+
+jdbc connection.
+Can we use return statement in fianlly block if yes then how its work if not then why?
+The various datatypes used in java.
+How u r goin to create spring framework instead usin it?   
+
+----------------------------------
+GOF & Solid design patterns..
+Sorting techniques..
+MVC, jdbc, hibernate,
+
+SOLID design principles..
+	Single Responsibility Principle - "One class should have one and only one responsibility"
+	Open Closed Principle - "Software components should be open for extension, but closed for modification"
+	Liskov's Substitution Principle - "Derived types must be completely substitutable for their base types"
+	Interface Segregation Principle - "Clients should not be forced to implement unnecessary methods which they will not use"
+	Dependency Inversion Principle - "Depend on abstractions, not on concretions"
+
+http://www.javastuff.in/2012/06/recent-10-garbage-collection-interview.html
+
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
+
+12 factors app cloud
+concurrency in micro services.
+What is API gate way? is it a micro service or what?
+How to auto scale micro service instances?
+What do you mean by cpu usage percentage and in which scenarios cpu usage will be more??
+Explain load balancing mechanism in your application?.
+Explain Fault tolerance and how do you identity it
+
+------------------
+
+JP Morgan Chase
+----------------
+1. What is an abstract class & interface. Abstraction percentage of the both.
+2. Multi Threading - Synchronized application for amount withdrawl/deposit.
+3. Where synchronozied applied.
+4. Diff between Service and product based applications.
+5. sample output for Static blocks and Instance initializer block  
+1. implement stack and queue. 2. write one array sort function. 3. implement one hash function. 4. probability question. 
+Difference between POST and PUT, can we cache the POST data and If no,k why cant we do it. 
+What is a binary search?  
+ How many objects of a servlet will be created by app server.? You are saying only one object will be created, then how it handle multiple requests at the sametime.?
+ Java is call by reference or call by value
+ How to increase the heapsize of your app server jvm.?
+8. What is the heap size of your jvm.?
+9. How you decide required heap size for your application.
+int a=(Integer)al.get(0)/b;
+What are the exceptions can come by executing above program and what is the hierarchy we have to follow while catching.
+I have value 0 in multiple palces of arraylist.How you remove 0 from arraylist.
+
